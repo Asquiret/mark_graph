@@ -15,20 +15,14 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QLineEdit" name="le_3"/>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="le_4"/>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="le_2"/>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="le_1"/>
-     </item>
-    </layout>
+    <widget class="QLineEdit" name="lineEdit"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Show graph</string>
+     </property>
+    </widget>
    </item>
    <item>
     <widget class="QWidget" name="plotWindow" native="true">
